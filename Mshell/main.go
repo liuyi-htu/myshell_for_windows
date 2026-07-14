@@ -83,7 +83,7 @@ var (
 //go:embed static/index.html
 var indexHTML []byte
 
-//go:embed static/vendor/* static/images/*
+//go:embed static/vendor/*
 var staticAssets embed.FS
 
 type config struct {
